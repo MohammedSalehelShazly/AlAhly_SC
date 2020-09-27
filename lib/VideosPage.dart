@@ -17,6 +17,9 @@ class _VideosPageState extends State<VideosPage> with SingleTickerProviderStateM
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
+        body: Container(
+          color: Colors.redAccent,
+        )
 
       ),
     );
